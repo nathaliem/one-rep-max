@@ -1,5 +1,5 @@
 {
-  "name": "one-rep-max",
+  "name": "@nathaliem/one-rep-max",
   "version": "1.0.0",
   "description": "One Rep Max calculations",
   "main": "dist/index.js",
