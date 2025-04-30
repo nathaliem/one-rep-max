@@ -26,7 +26,10 @@
     "test": "vitest run",
     "test:watch": "vitest"
   },
-  "repository": "https://github.com/nathaliem/one-rep-max",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nathaliem/one-rep-max.git"
+  },
   "author": "Nathalie Maes",
   "license": "MIT",
   "devDependencies": {
