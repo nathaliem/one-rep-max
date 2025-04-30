@@ -1,3 +1,12 @@
+## [1.0.3](https://github.com/nathaliem/one-rep-max/compare/v1.0.2...v1.0.3) (2025-04-30)
+
+
+### Bug Fixes
+
+* Fix dist contents missing in downloaded package (oopsie) ([e0e61b7](https://github.com/nathaliem/one-rep-max/commit/e0e61b7be9153b5bd18b11acfac05ee68f901114))
+* Refactor ([2453a4c](https://github.com/nathaliem/one-rep-max/commit/2453a4ca9a714aaf7895bed9b879ce0c9e1f195a))
+* Update README formatting ([e7cf56d](https://github.com/nathaliem/one-rep-max/commit/e7cf56d26053339020a128a4325fa89a2500e706))
+
 ## [1.0.2](https://github.com/nathaliem/one-rep-max/compare/v1.0.1...v1.0.2) (2025-04-30)
 
 

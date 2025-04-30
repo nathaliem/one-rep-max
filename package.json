@@ -1,6 +1,6 @@
 {
   "name": "@nathaliem/one-rep-max",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "One Rep Max calculations",
   "main": "dist/index.js",
   "module": "dist/index.js",
