@@ -25,14 +25,12 @@ yarn add one-rep-max
 
 ### Estimate 1RM with a specific formula
 
-```
 getOneRepMax(weight, reps, decimals?, formula?)
-	•	weight – number (kg or lbs)
-	•	reps – number (recommended: 1–15)
-	•	decimals – optional number (default: 2)
-	•	formula – one of 'epley' | 'brzycki' | 'lombardi' | 'mayhew' | 'oconner' | 'wathan' | 'landers'
-	•	Returns: estimated 1RM (number)
-```
+• weight – number (kg or lbs)
+• reps – number (recommended: 1–15)
+• decimals – optional number (default: 2)
+• formula – one of 'epley' | 'brzycki' | 'lombardi' | 'mayhew' | 'oconner' | 'wathan' | 'landers'
+• Returns: estimated 1RM (number)
 
 ```
 import { getOneRepMax } from 'one-rep-max';
@@ -68,6 +66,6 @@ const allEstimates = getAllFormulas(100, 5);
 */
 ```
 
-## License
+## 📄 License
 
 MIT
