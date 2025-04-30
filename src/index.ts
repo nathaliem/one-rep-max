@@ -1,12 +1,4 @@
-import {
-  epley,
-  brzycki,
-  lombardi,
-  mayhew,
-  oconner,
-  wathan,
-  landers,
-} from "./formulas";
+import * as formulas from "./formulas";
 
 export type FormulaName =
   | "epley"
@@ -36,24 +28,10 @@ export function getOneRepMax(
     return parseFloat(averageOneRepMax(weight, reps).toFixed(decimals));
   }
 
-  switch (formula) {
-    case "epley":
-      return parseFloat(epley(weight, reps).toFixed(decimals));
-    case "brzycki":
-      return parseFloat(brzycki(weight, reps).toFixed(decimals));
-    case "lombardi":
-      return parseFloat(lombardi(weight, reps).toFixed(decimals));
-    case "mayhew":
-      return parseFloat(mayhew(weight, reps).toFixed(decimals));
-    case "oconner":
-      return parseFloat(oconner(weight, reps).toFixed(decimals));
-    case "wathan":
-      return parseFloat(wathan(weight, reps).toFixed(decimals));
-    case "landers":
-      return parseFloat(landers(weight, reps).toFixed(decimals));
-    default:
-      throw new Error("Unknown formula");
-  }
+  const fn = formulas[formula];
+  if (!fn) throw new Error("Unknown formula");
+
+  return parseFloat(fn(weight, reps).toFixed(decimals));
 }
 
 /**
@@ -109,13 +87,10 @@ export function getAllFormulas(
   reps: number,
   decimals = 2,
 ): Record<FormulaName, number> {
-  return {
-    epley: +epley(weight, reps).toFixed(decimals),
-    brzycki: +brzycki(weight, reps).toFixed(decimals),
-    lombardi: +lombardi(weight, reps).toFixed(decimals),
-    mayhew: +mayhew(weight, reps).toFixed(decimals),
-    oconner: +oconner(weight, reps).toFixed(decimals),
-    wathan: +wathan(weight, reps).toFixed(decimals),
-    landers: +landers(weight, reps).toFixed(decimals),
-  };
+  return Object.fromEntries(
+    (Object.keys(formulas) as FormulaName[]).map((f) => [
+      f,
+      +formulas[f](weight, reps).toFixed(decimals),
+    ]),
+  ) as Record<FormulaName, number>;
 }
