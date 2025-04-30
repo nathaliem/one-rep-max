@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/nathaliem/one-rep-max/compare/v1.0.1...v1.0.2) (2025-04-30)
+
+
+### Bug Fixes
+
+* Update README formatting ([6de73f6](https://github.com/nathaliem/one-rep-max/commit/6de73f628beb10d83bb858268a09677923fbfc31))
+
 ## [1.0.1](https://github.com/nathaliem/one-rep-max/compare/v1.0.0...v1.0.1) (2025-04-30)
 
 
