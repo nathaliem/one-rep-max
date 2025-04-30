@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/nathaliem/one-rep-max/compare/v1.0.4...v1.0.5) (2025-04-30)
+
+
+### Bug Fixes
+
+* Add license ([deec278](https://github.com/nathaliem/one-rep-max/commit/deec278aa7b0643492de5e200b6daed4c1d90a0b))
+
 ## [1.0.4](https://github.com/nathaliem/one-rep-max/compare/v1.0.3...v1.0.4) (2025-04-30)
 
 
