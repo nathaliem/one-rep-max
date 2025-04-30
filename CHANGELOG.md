@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/nathaliem/one-rep-max/compare/v1.0.3...v1.0.4) (2025-04-30)
+
+
+### Bug Fixes
+
+* Add build step 🤦‍♀️ ([6b54b6c](https://github.com/nathaliem/one-rep-max/commit/6b54b6c7c2c59031f3e5744863d82c292bbcf27b))
+
 ## [1.0.3](https://github.com/nathaliem/one-rep-max/compare/v1.0.2...v1.0.3) (2025-04-30)
 
 
