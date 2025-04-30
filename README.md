@@ -1,4 +1,4 @@
-# 🏋️ one-rep-max-utils
+# 🏋️ one-rep-max
 
 A lightweight TypeScript library to estimate your **one-rep max (1RM)** using scientifically recognized formulas. Useful for strength athletes, powerlifters, coaches, and developers building fitness tools.
 
