@@ -1,0 +1,38 @@
+{
+  "name": "one-rep-max",
+  "version": "1.0.0",
+  "description": "One Rep Max calculations",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "1rm",
+    "one rep max",
+    "strength",
+    "strength level",
+    "lifting"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "repository": "https://github.com/nathaliem/one-rep-max",
+  "author": "Nathalie Maes",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "3.5.3",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.2"
+  }
+}
