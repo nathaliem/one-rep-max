@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/nathaliem/one-rep-max/compare/v1.0.0...v1.0.1) (2025-04-30)
+
+
+### Bug Fixes
+
+* trigger version bump ([f764fcc](https://github.com/nathaliem/one-rep-max/commit/f764fccead29516cfefbe391a3a49901f3f1dfac))
+
 # 1.0.0 (2025-04-30)
 
 
